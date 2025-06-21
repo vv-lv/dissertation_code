@@ -1,0 +1,6 @@
+contile.services.mozilla.com	0	20169	1774151951191,1,0
+www.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	0	20169	1774151950689,1,0
+location.services.mozilla.com	0	20169	1774151950355,1,0
+spocs.getpocket.com	0	20169	1774151951594,1,0
+incoming.telemetry.mozilla.org	0	20169	1774151951970,1,0
+firefox.settings.services.mozilla.com	0	20169	1774151951116,1,0

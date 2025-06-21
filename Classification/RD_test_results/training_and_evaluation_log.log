@@ -1,0 +1,98 @@
+2025-05-04 02:27:42,641 [INFO] 
+--- Calculating Optimal Threshold on Training Data using Ensemble ---
+2025-05-04 02:27:42,643 [INFO] Loaded scaler from /home/vipuser/Desktop/Classification/RD_test_results/scaler.joblib
+2025-05-04 02:27:42,643 [WARNING] Training skipped. Reloading training data for threshold calc.
+2025-05-04 02:27:42,802 [INFO] Reloaded and scaled training data for threshold calculation.
+2025-05-04 02:27:42,802 [INFO] Running inference on training data (282 samples) with 5 models...
+2025-05-04 02:27:43,162 [INFO] Optimal threshold calculated: 0.5025 (Max Youden's Index: 0.8709)
+2025-05-04 02:27:43,162 [INFO] --- Optimal Threshold Calculation Finished ---
+2025-05-04 02:27:43,162 [INFO] 
+====== Starting Evaluation Phase ======
+2025-05-04 02:27:43,162 [INFO] 
+--- Evaluating Ensemble on InternalTest Data ---
+2025-05-04 02:27:43,163 [INFO] Feature source: /home/vipuser/Desktop/Classification/RD_test/test_features_RD.csv
+2025-05-04 02:27:43,180 [INFO] Loaded and scaled InternalTest features: (121, 426)
+2025-05-04 02:27:43,260 [INFO] Loaded 5 models for ensemble evaluation.
+2025-05-04 02:27:43,268 [INFO] Using train-derived threshold for InternalTest: 0.5025
+2025-05-04 02:27:43,270 [INFO] Saved InternalTest predictions to: /home/vipuser/Desktop/Classification/RD_test_results/predictions/InternalTest_predictions_thresh0.5025.csv
+2025-05-04 02:27:43,274 [INFO] Saved ensemble probabilities and labels for InternalTest to: /home/vipuser/Desktop/Classification/RD_test_results/predictions/InternalTest_ensemble_probs.pkl
+2025-05-04 02:27:44,362 [INFO] --- InternalTest Metrics ---
+2025-05-04 02:27:44,363 [INFO]   AUC (95% CI): 0.8802 (0.815-0.937)
+2025-05-04 02:27:44,363 [INFO]   Accuracy: 0.8017
+2025-05-04 02:27:44,363 [INFO]   Precision: 0.8000
+2025-05-04 02:27:44,363 [INFO]   Recall: 0.8485
+2025-05-04 02:27:44,363 [INFO]   Specificity: 0.7455
+2025-05-04 02:27:44,363 [INFO]   F1: 0.8235
+2025-05-04 02:27:44,363 [INFO]   Threshold Used: 0.5025
+2025-05-04 02:27:44,364 [INFO] 
+--- Evaluating Ensemble on ExternalTest Data ---
+2025-05-04 02:27:44,364 [INFO] Feature source: /home/vipuser/Desktop/Classification/RD_test/external_test_features_RD.csv
+2025-05-04 02:27:44,390 [INFO] Loaded and scaled ExternalTest features: (174, 426)
+2025-05-04 02:27:44,473 [INFO] Loaded 5 models for ensemble evaluation.
+2025-05-04 02:27:44,482 [INFO] External test set with labels detected. Attempting to adjust threshold.
+2025-05-04 02:27:44,486 [INFO] Calculating threshold based on external test data...
+2025-05-04 02:27:44,545 [INFO] Optimal threshold calculated: 0.5025 (Max Youden's Index: 0.5017)
+2025-05-04 02:27:44,545 [INFO] External-specific threshold: 0.5025
+2025-05-04 02:27:44,545 [INFO] Final adjusted threshold for ExternalTest: (0.5025 + 0.5025)/2 + 0.02 = 0.5025
+2025-05-04 02:27:44,547 [INFO] Saved ExternalTest predictions to: /home/vipuser/Desktop/Classification/RD_test_results/predictions/ExternalTest_predictions_thresh0.5025.csv
+2025-05-04 02:27:44,547 [INFO] Saved ensemble probabilities and labels for ExternalTest to: /home/vipuser/Desktop/Classification/RD_test_results/predictions/ExternalTest_ensemble_probs.pkl
+2025-05-04 02:27:45,612 [INFO] --- ExternalTest Metrics ---
+2025-05-04 02:27:45,612 [INFO]   AUC (95% CI): 0.7995 (0.726-0.869)
+2025-05-04 02:27:45,612 [INFO]   Accuracy: 0.7989
+2025-05-04 02:27:45,612 [INFO]   Precision: 0.7826
+2025-05-04 02:27:45,612 [INFO]   Recall: 0.5902
+2025-05-04 02:27:45,612 [INFO]   Specificity: 0.9115
+2025-05-04 02:27:45,612 [INFO]   F1: 0.6729
+2025-05-04 02:27:45,612 [INFO]   Threshold Used: 0.5025
+2025-05-04 02:27:45,613 [INFO] ====== Evaluation Phase Finished ======
+2025-05-04 02:27:45,613 [INFO] 
+=== Full Script Finished ===
+2025-05-04 11:23:03,799 [INFO] 
+--- Calculating Optimal Threshold on Training Data using Ensemble ---
+2025-05-04 11:23:03,801 [INFO] Loaded scaler from /home/vipuser/Desktop/Classification/RD_test_results/scaler.joblib
+2025-05-04 11:23:03,801 [WARNING] Training skipped. Reloading training data for threshold calc.
+2025-05-04 11:23:04,040 [INFO] Reloaded and scaled training data for threshold calculation.
+2025-05-04 11:23:04,040 [INFO] Running inference on training data (282 samples) with 5 models...
+2025-05-04 11:23:04,465 [INFO] Optimal threshold calculated: 0.5025 (Max Youden's Index: 0.8709)
+2025-05-04 11:23:04,465 [INFO] --- Optimal Threshold Calculation Finished ---
+2025-05-04 11:23:04,465 [INFO] 
+====== Starting Evaluation Phase ======
+2025-05-04 11:23:04,466 [INFO] 
+--- Evaluating Ensemble on InternalTest Data ---
+2025-05-04 11:23:04,466 [INFO] Feature source: /home/vipuser/Desktop/Classification/RD_test/test_features_RD.csv
+2025-05-04 11:23:04,487 [INFO] Loaded and scaled InternalTest features: (121, 426)
+2025-05-04 11:23:04,579 [INFO] Loaded 5 models for ensemble evaluation.
+2025-05-04 11:23:04,589 [INFO] Using train-derived threshold for InternalTest: 0.5025
+2025-05-04 11:23:04,592 [INFO] Saved InternalTest predictions to: /home/vipuser/Desktop/Classification/RD_test_results/predictions/InternalTest_predictions_thresh0.5025.csv
+2025-05-04 11:23:04,598 [INFO] Saved ensemble probabilities and labels for InternalTest to: /home/vipuser/Desktop/Classification/RD_test_results/predictions/InternalTest_ensemble_probs.pkl
+2025-05-04 11:23:05,816 [INFO] --- InternalTest Metrics ---
+2025-05-04 11:23:05,816 [INFO]   AUC (95% CI): 0.8802 (0.815-0.937)
+2025-05-04 11:23:05,816 [INFO]   Accuracy: 0.8017
+2025-05-04 11:23:05,816 [INFO]   Precision: 0.8000
+2025-05-04 11:23:05,816 [INFO]   Recall: 0.8485
+2025-05-04 11:23:05,816 [INFO]   Specificity: 0.7455
+2025-05-04 11:23:05,817 [INFO]   F1: 0.8235
+2025-05-04 11:23:05,817 [INFO]   Threshold Used: 0.5025
+2025-05-04 11:23:05,818 [INFO] 
+--- Evaluating Ensemble on ExternalTest Data ---
+2025-05-04 11:23:05,818 [INFO] Feature source: /home/vipuser/Desktop/Classification/RD_test/external_test_features_RD.csv
+2025-05-04 11:23:05,844 [INFO] Loaded and scaled ExternalTest features: (174, 426)
+2025-05-04 11:23:05,937 [INFO] Loaded 5 models for ensemble evaluation.
+2025-05-04 11:23:05,947 [INFO] External test set with labels detected. Attempting to adjust threshold.
+2025-05-04 11:23:05,951 [INFO] Calculating threshold based on external test data...
+2025-05-04 11:23:06,018 [INFO] Optimal threshold calculated: 0.5025 (Max Youden's Index: 0.5017)
+2025-05-04 11:23:06,018 [INFO] External-specific threshold: 0.5025
+2025-05-04 11:23:06,018 [INFO] Final adjusted threshold for ExternalTest: (0.5025 + 0.5025)/2 + 0.02 = 0.5025
+2025-05-04 11:23:06,020 [INFO] Saved ExternalTest predictions to: /home/vipuser/Desktop/Classification/RD_test_results/predictions/ExternalTest_predictions_thresh0.5025.csv
+2025-05-04 11:23:06,020 [INFO] Saved ensemble probabilities and labels for ExternalTest to: /home/vipuser/Desktop/Classification/RD_test_results/predictions/ExternalTest_ensemble_probs.pkl
+2025-05-04 11:23:07,218 [INFO] --- ExternalTest Metrics ---
+2025-05-04 11:23:07,218 [INFO]   AUC (95% CI): 0.7995 (0.726-0.869)
+2025-05-04 11:23:07,218 [INFO]   Accuracy: 0.7989
+2025-05-04 11:23:07,218 [INFO]   Precision: 0.7826
+2025-05-04 11:23:07,218 [INFO]   Recall: 0.5902
+2025-05-04 11:23:07,218 [INFO]   Specificity: 0.9115
+2025-05-04 11:23:07,219 [INFO]   F1: 0.6729
+2025-05-04 11:23:07,219 [INFO]   Threshold Used: 0.5025
+2025-05-04 11:23:07,220 [INFO] ====== Evaluation Phase Finished ======
+2025-05-04 11:23:07,220 [INFO] 
+=== Full Script Finished ===

@@ -1,0 +1,4 @@
+模型类型,平均CV AUC,最佳参数
+LR,0.9414,"{'C': 0.001, 'max_iter': 50, 'random_state': 42}"
+SVM,0.9454,"{'C': 0.1, 'gamma': 'scale', 'kernel': 'rbf', 'probability': True, 'random_state': 42}"
+MLP,0.9420,"{'batch_size': 64, 'dropout_rate': 0.1, 'early_stopping_patience': 20, 'hidden_dim1': 32, 'hidden_dim2': 16, 'learning_rate': 0.0007, 'lr_scheduler_type': 'cosine', 'num_epochs': 150, 'random_state': 42, 'weight_decay': 1e-05}"

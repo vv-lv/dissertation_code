@@ -1,0 +1,4 @@
+Model_1,Model_2,AUC_1,AUC_2,delta_AUC,z_score,p_value,Significant (p<0.05)
+LR,SVM,0.6711,0.6942,-0.0231,-0.5507,0.5819,False
+LR,MLP,0.6711,0.6746,-0.0035,-0.2427,0.8082,False
+SVM,MLP,0.6942,0.6746,0.0196,0.5116,0.6089,False
